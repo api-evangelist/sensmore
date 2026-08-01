@@ -1,7 +1,17 @@
 aid: sensmore
 name: Sensmore
-description: Sensmore is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sensmore (sensmore GmbH) is a German industrial-automation and embodied-AI company
+  that turns robotics research into field-proven systems for heavy machinery in raw
+  material operations. Its platform connects machines, sites, and data across mining,
+  aggregates/construction, and defense, spanning products including Site Intelligence
+  (live site operations), Machine Assist (driver assistance and collision warning),
+  Eye (visual monitoring), Live Mapping (real-time site mapping), and Loader Automation
+  (autonomous vehicle systems), with claims of reducing downtime by up to 30% while
+  improving safety and resource efficiency. Sensmore was surfaced as a portfolio company
+  of Point Nine and added to the API Evangelist network. As of this enrichment pass the
+  company publishes no public API, SDK, developer portal, or developer documentation;
+  its web presence is a marketing and corporate site.
 url: https://raw.githubusercontent.com/api-evangelist/sensmore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.sensmore.ai/favicon.svg
 tags:
 - Company
+- Robotics
+- Embodied AI
+- Industrial Automation
+- Heavy Machinery
+- Mining
+- Construction
+- Autonomous Vehicles
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sensmore-domain-security.yml
 - type: Website
   url: https://www.sensmore.ai
+- type: PrivacyPolicy
+  url: https://www.sensmore.ai/legal/privacy-policy
+- type: About
+  url: https://www.sensmore.ai/company/about
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
